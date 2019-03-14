@@ -1,7 +1,7 @@
 Package.describe({
   name: 'mubiale:tools',
   summary: 'Helper functions for dapps',
-  version: '0.0.1',
+  version: '1.0.1',
   git: 'http://github.com/wuxiangzhou2010/meteor-package-tools'
 });
 
@@ -18,7 +18,7 @@ Package.onUse(function(api) {
   //api.use('numeral:numeral@1.5.3', ['client', 'server']);
   api.use('3stack:bignumber@2.0.0', 'client');
 
-  api.use('mubiale:web3@0.0.2', ['client', 'server']);
+  api.use('mubiale:web3@1.0.3', ['client', 'server']);
   api.use('frozeman:persistent-minimongo@0.1.8', 'client');
   api.use('frozeman:storage@0.1.8', 'client');
 
